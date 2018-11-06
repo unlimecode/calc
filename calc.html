@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="rus">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="calc.css">
+</head>
+<body>
+	<div class="main1">
+	<div class="main"> 
+		
+	<div id="disp" class="display">
+		<div id="smoll" class="smolldisp"></div>
+	<h1>0</h1>
+	</div>
+	<p style="text-align: center; color: white;"> my first calc. 10.2018 ;)</p>
+	<div style="height: 12px;"></div>
+<div class="key">
+	<button value="clear" onclick="getclear(this.value)">C</button>
+	<button value="1" onclick="getVal(this.value)">1</button>
+	<button value="2" onclick="getVal(this.value)">2</button>
+	<button value="3" onclick="getVal(this.value)">3</button>
+	<button value="+" onclick="getoper(this.value)">+</button>
+	<button value="4" onclick="getVal(this.value)">4</button>
+	<button value="5" onclick="getVal(this.value)">5</button>
+	<button value="6" onclick="getVal(this.value)">6</button>
+	<button value="-" onclick="getoper(this.value)">-</button>
+	<button value="7" onclick="getVal(this.value)">7</button>
+	<button value="8" onclick="getVal(this.value)">8</button>
+	<button value="9" onclick="getVal(this.value)">9</button>
+	<button value="*" onclick="getoper(this.value)">*</button>
+	<button value="." onclick="getVal(this.value)">.</button>
+	<button value="0" onclick="getVal(this.value)">0</button>
+	<button id="mind" onclick="memory()">M</button>
+	<button value="/" onclick="getoper(this.value)">/</button>
+	<button  class="big" id="result" onclick="getres()">=</button>
+</div>
+</div>
+</div>
+
+	
+<script src="calc.js"></script>
+</body>
+</html>
